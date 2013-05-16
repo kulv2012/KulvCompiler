@@ -1,0 +1,35 @@
+func :
+	__tmp__0 = hello
+	__tmp__1 = __tmp__0
+	__tmp__2 = hello
+	__tmp__3 = __tmp__2
+	__tmp__4 = __tmp__3
+	__tmp__5 = __tmp__4
+	__tmp__6 = 3
+	__tmp__7 = __tmp__6
+	__tmp__8 = __tmp__7
+	__tmp__9 = __tmp__8
+	__tmp__10 = __tmp__5 * __tmp__9
+	__tmp__11 = __tmp__10
+	__tmp__12 = 10
+	__tmp__13 = __tmp__12
+	__tmp__14 = __tmp__13
+	__tmp__15 = __tmp__14
+	__tmp__16 = __tmp__15
+	__tmp__17 = __tmp__11 + __tmp__16
+	__tmp__18 = __tmp__17
+	__tmp__19 = __tmp__18
+	__tmp__20 = __tmp__19
+	__tmp__21 = __tmp__20
+	__tmp__22 = __tmp__21
+	__tmp__23 = __tmp__22
+	__tmp__24 = __tmp__23
+	__tmp__25 = __tmp__24
+	__tmp__26 = __tmp__25
+	__tmp__27 = __tmp__26
+__tmp__1 = __tmp__27
+	__tmp__28 = __tmp__1
+	__tmp__29 = __tmp__28
+	return
+kulv :
+	return

@@ -1,0 +1,3 @@
+main	1 3
+hello	0 1
+fenger	2 5

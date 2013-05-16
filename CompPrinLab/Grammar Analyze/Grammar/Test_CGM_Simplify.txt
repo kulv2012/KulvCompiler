@@ -1,0 +1,143 @@
+translation-unit:
+	external-declaration
+	translation-unit external-declaration 
+
+external-declaration:
+	declaration 
+
+declaration:
+	declaration-specifiers ; 
+	declaration-specifiers init-declarator-list ; 
+
+declaration-list:
+	declaration
+	declaration-list declaration 
+
+declaration-specifiers:
+	type-specifier 
+	type-specifier declaration-specifiers 
+
+type-specifier:
+	char
+	int 
+
+init-declarator-list:
+	init-declarator
+	init-declarator-list , init-declarator 
+
+init-declarator:
+	declarator
+	declarator = initializer 
+
+declarator:
+	direct-declarator 
+
+direct-declarator:
+	identifier  
+	( declarator )
+
+initializer:
+	assignment-expression 
+
+statement:
+	expression-statement
+	compound-statement
+	selection-statement
+	iteration-statement
+
+iteration-statement:
+	for ( ; expression  ; )  statement 
+
+expression-statement:
+	; 
+	expression ; 
+
+compound-statement:
+	{ } 
+	{ statement-list } 
+	{ declaration-list } 
+	{ declaration-list statement-list } 
+
+statement-list:
+	statement
+	statement-list statement 
+
+selection-statement:
+	if ( expression ) statement
+	if ( expression ) statement else statement
+
+expression:
+	assignment-expression
+	expression , assignment-expression 
+
+assignment-expression:
+	conditional-expression
+	unary-expression assignment-operator assignment-expression 
+
+assignment-operator: 
+	= 
+	*= 
+	+= 
+	<<=
+
+conditional-expression:
+	logical-OR-expression
+
+constant-expression:
+	conditional-expression 
+
+logical-OR-expression:
+	logical-AND-expression
+	logical-OR-expression || logical-AND-expression 
+
+logical-AND-expression:
+	inclusive-OR-expression
+	logical-AND-expression && inclusive-OR-expression 
+
+inclusive-OR-expression:
+	exclusive-OR-expression
+ 
+exclusive-OR-expression:
+	AND-expression
+
+AND-expression:
+	equality-expression
+
+equality-expression:
+	relational-expression
+	equality-expression == relational-expression
+
+relational-expression:
+	shift-expression
+	relational-expression < shift-expression
+
+shift-expression:
+	additive-expression
+	shift-expression << additive-expression
+
+additive-expression:
+	multiplicative-expression
+	additive-expression + multiplicative-expression
+
+multiplicative-expression:
+	cast-expression
+	multiplicative-expression * cast-expression
+
+cast-expression:
+	unary-expression
+
+unary-expression:
+	postfix-expression
+
+postfix-expression:
+	primary-expression
+
+primary-expression:
+	identifier  
+	constant
+	( expression ) 
+
+constant:
+	integer-constant
+	character-constant
+	string-constant

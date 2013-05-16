@@ -1,0 +1,47 @@
+
+func :
+__tmp__0	10	2
+__tmp__12	50	4
+__tmp__23	94	4
+__tmp__13	54	4
+__tmp__22	90	4
+__tmp__7	30	4
+arg	0	4
+__tmp__14	58	4
+__tmp__25	102	4
+__tmp__6	26	4
+__tmp__15	62	4
+__tmp__24	98	4
+__tmp__5	22	4
+hello	8	2
+kulv	4	4
+__tmp__16	66	4
+__tmp__27	110	4
+__tmp__4	18	4
+__tmp__17	70	4
+__tmp__26	106	4
+__tmp__3	16	2
+__tmp__10	42	4
+__tmp__18	74	4
+__tmp__2	14	2
+__tmp__21	86	4
+__tmp__29	118	4
+__tmp__1	12	2
+__tmp__11	46	4
+__tmp__19	78	4
+__tmp__20	82	4
+__tmp__28	114	4
+__tmp__9	38	4
+__tmp__8	34	4
+
+
+kulv :
+hello	5	4
+
+
+
+Global Variables:
+globalvariable	0	4
+func	-1	0
+hello	4	1
+kulv	-1	0

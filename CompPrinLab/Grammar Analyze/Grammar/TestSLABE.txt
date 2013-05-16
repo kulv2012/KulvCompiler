@@ -1,0 +1,26 @@
+S:
+	if# B then# S else# S
+	while# B do# S
+	begin# L end 
+	A
+
+L:
+	S ; L
+	S
+
+A:
+	i# := E
+
+B:
+	i
+	B < B
+	B > B
+	& B 
+	( B )
+	i rop i
+
+E:
+	i
+	E + E
+	E * E
+	( E )

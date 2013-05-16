@@ -1,0 +1,13 @@
+B:
+	i
+	i rop i
+	( B )
+	NOT B
+	A B
+	O B
+
+A:
+	B AND
+
+O:
+	B OR
